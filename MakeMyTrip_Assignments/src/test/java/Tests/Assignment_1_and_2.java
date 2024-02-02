@@ -29,10 +29,8 @@ public class Assignment_1_and_2 extends BaseRepository {
 	@Test(priority=1)
 	public void validateURL()
 	{
-		String expectedURL=url;
+		String expectedURL=url; 
 		String actualURL = driver.getCurrentUrl();
-		System.out.println("expected:"+expectedURL);
-		System.out.println("actual:"+actualURL);
 		Assert.assertEquals(expectedURL, actualURL);
 	}
 
