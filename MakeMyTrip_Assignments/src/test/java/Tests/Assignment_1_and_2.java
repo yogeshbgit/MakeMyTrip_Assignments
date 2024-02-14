@@ -39,6 +39,7 @@ public class Assignment_1_and_2 extends BaseRepository {
 	public void tearDown()
 	{
 		driver.close();
+		
 	}
 
 }
